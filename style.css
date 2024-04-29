@@ -1,0 +1,18 @@
+.mustang{
+    justify-content: center
+}
+
+.vermelho{
+    justify-content: center;
+    
+}
+
+body{   
+    background-color: white;
+}
+
+.cabecalho{    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
