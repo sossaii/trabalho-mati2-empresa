@@ -1,5 +1,8 @@
 .mustang{
-    justify-content: center
+    display: flex;
+    width: 30%;
+    height: 350px;
+    align-self: start;
 }
 
 .vermelho{
@@ -10,9 +13,27 @@
 body{   
     background-color: white;
 }
+p{  
+    display: flex;
+
+}
+
 
 .cabecalho{    
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.pa{    
+    display: flex;
+    justify-content: center
+    ;
+}
+
+.texto{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
