@@ -2,16 +2,26 @@
     display: flex;
     width: 30%;
     height: 350px;
-    align-self: start;
+    padding-left: 300px;
+    padding-bottom: 90px;
+    
+    
 }
 
+
+
 .vermelho{
-    justify-content: center;
+    display: flex;
+    width: 60%;
+    padding-top: 70px;
+    
+    
+    
     
 }
 
 body{   
-    background-color: white;
+    background-color: #FFCCCC;
 }
 p{  
     display: flex;
@@ -35,5 +45,18 @@ p{
 .texto{ 
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    align-items: center;
+    text-align: center  ;
+    
+}
+
+h1{
+    color: gray;
+    
+}
+
+.insta{ 
+    display: flex;
+    width: 5%;
+    afjdsfhbsdihfsd
 }
