@@ -11,20 +11,23 @@
 }
 header{
     background-color: #f81919;
-    padding: 30px 0;
+    padding: 25px 20px;
+    font-family: 'Courier New', Courier, monospace ;
+
 }
 .tudo{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin: 20px;
+    margin: 10px;
     
 
 
 }
 .texto{
-    background-color: #f02424;
-    width: 50px 10px ;
+    background-color: #f81919;
+    width: 50%;
+    font-family: 'Courier New', Courier, monospace ;
 }
 .lista-cabecalho{
     display: flex;
@@ -80,10 +83,21 @@ h3{
 
 h4{
     font-size: 15px;
-    padding-bottom: ;
+    padding-left: 169px;
+}
+
+.h6{
+    font-size: 20px;
+    padding-top: 180px;
+    padding-left: 530px;
 }
 
 .insta{ 
     display: flex;
     width: 5%;
+}
+
+.png {
+    padding-top: 370px;
+    width: 110%;
 }
