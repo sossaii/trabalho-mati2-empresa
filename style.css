@@ -1,27 +1,44 @@
+
+*{margin: 0;}
+
 .mustang{
     display: flex;
-    width: 30%;
+    width: 100%;
     height: 350px;
-    padding-left: 300px;
-    padding-bottom: 90px;
+   
     
     
 }
-
-
-
-.vermelho{
+header{
+    background-color: #f81919;
+    padding: 30px 0;
+}
+.tudo{
     display: flex;
-    width: 60%;
-    padding-top: 70px;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px;
     
-    
-    
-    
+
+
 }
+.texto{
+    background-color: #f02424;
+    width: 50px 10px ;
+}
+.lista-cabecalho{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.lista-item{
+    display: inline-block;
+    padding: 0 20px;
+}
+    
 
 body{   
-    background-color: #FFCCCC;
+    background-color: #ffffff;
 }
 p{  
     display: flex;
@@ -51,12 +68,22 @@ p{
 }
 
 h1{
-    color: gray;
-    
+    color: rgb(0, 0, 0);
+    font-size: 70px;   
+    padding-right: 200px; 
+}
+
+h3{
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+h4{
+    font-size: 15px;
+    padding-bottom: ;
 }
 
 .insta{ 
     display: flex;
     width: 5%;
-    afjdsfhbsdihfsd
 }
